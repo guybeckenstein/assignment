@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SignInTestSuite" verbose="1">
+
+    <test name="SignInTest">
+        <classes>
+            <class name="automationPractice.SignInTest">
+                <methods>
+                    <include name="positiveSignInTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

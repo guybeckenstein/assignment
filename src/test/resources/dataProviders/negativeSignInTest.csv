@@ -1,0 +1,8 @@
+num,email,password,amountErrors,errorsList,description
+1,email@email.com,abcdefg,There is 1 error, Authentication failed.,authentication error (user does not exist)
+2,email,abcdefg,There is 1 error,Invalid email address.,invalid email
+3,,abcdefg,There is 1 error,An email address required.,empty email
+4,,,There is 1 error,An email address required.,empty email and password
+5,email,,There is 1 error,Invalid email address.,invalid email and empty password
+6,email@email,,There is 1 error,Password is required.,empty password
+7,email@email,a,There is 1 error,Invalid password.,invalid password
